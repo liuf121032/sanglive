@@ -1,0 +1,15 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /shop/get                 --> gin/app/shop.shopGetHandler (3 handlers)
+[GIN-debug] POST   /shop/comment             --> gin/app/shop.shopCommentHandler (3 handlers)
+[GIN-debug] POST   /blog/post                --> gin/app/blog.blogPostHandler (3 handlers)
+[GIN-debug] GET    /blog/comment             --> gin/app/blog.blogCommentHandler (3 handlers)
+[GIN-debug] POST   /blog/login               --> gin/app/blog.loginJson (3 handlers)
+[GIN-debug] GET    /blog/long_async          --> gin/app/blog.long_async (4 handlers)
+[GIN-debug] GET    /blog/long_sync           --> gin/app/blog.long_sync (3 handlers)
+[GIN-debug] GET    /blog/test                --> gin/app/blog.test (3 handlers)
+[GIN-debug] Listening and serving HTTP on 127.0.0.1:9100
